@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, sans-serif" role="img" aria-label="Interval plot of out-of-sample Brier skill scores with 90% confidence intervals across five PGA Tour outcome markets. Make-cut, top-20, and top-10 show genuine skill with confidence intervals clearing zero; top-5 and win straddle zero.">
+  <rect width="760" height="400" fill="#101012"/>
+
+  <!-- Title -->
+  <text x="32" y="38" fill="#f4f4f5" font-size="16" font-weight="600">Out-of-sample Brier skill vs. field base rate</text>
+  <text x="32" y="60" fill="#71717a" font-size="12">Block-bootstrap 90% CI &#183; rolling-origin backtest &#183; ~35,800 player-tournament results, 2018&#8211;2026</text>
+
+  <!-- Gridlines -->
+  <line x1="363.5" y1="88" x2="363.5" y2="316" stroke="#27272a" stroke-width="1"/>
+  <line x1="485.2" y1="88" x2="485.2" y2="316" stroke="#27272a" stroke-width="1"/>
+  <line x1="606.9" y1="88" x2="606.9" y2="316" stroke="#27272a" stroke-width="1"/>
+  <!-- Zero line -->
+  <line x1="241.7" y1="88" x2="241.7" y2="316" stroke="#3f3f46" stroke-width="1.5"/>
+
+  <!-- Axis tick labels -->
+  <g fill="#71717a" font-size="11" text-anchor="middle">
+    <text x="241.7" y="336">0.00</text>
+    <text x="363.5" y="336">+0.10</text>
+    <text x="485.2" y="336">+0.20</text>
+    <text x="606.9" y="336">+0.30</text>
+  </g>
+
+  <!-- win: +0.002 [-0.005, +0.009] — straddles 0 -->
+  <g>
+    <text x="104" y="116" fill="#d4d4d8" font-size="13" text-anchor="end">win</text>
+    <line x1="235.6" y1="112" x2="252.7" y2="112" stroke="#52525b" stroke-width="2"/>
+    <line x1="235.6" y1="107" x2="235.6" y2="117" stroke="#52525b" stroke-width="2"/>
+    <line x1="252.7" y1="107" x2="252.7" y2="117" stroke="#52525b" stroke-width="2"/>
+    <circle cx="244.2" cy="112" r="5" fill="#52525b" stroke="#101012" stroke-width="2"/>
+    <text x="262.7" y="116" fill="#a1a1aa" font-size="11.5" font-family="ui-monospace, Menlo, monospace">+0.002</text>
+  </g>
+
+  <!-- top-5: +0.022 [-0.060, +0.100] — straddles 0 -->
+  <g>
+    <text x="104" y="162" fill="#d4d4d8" font-size="13" text-anchor="end">top-5</text>
+    <line x1="168.7" y1="158" x2="363.5" y2="158" stroke="#52525b" stroke-width="2"/>
+    <line x1="168.7" y1="153" x2="168.7" y2="163" stroke="#52525b" stroke-width="2"/>
+    <line x1="363.5" y1="153" x2="363.5" y2="163" stroke="#52525b" stroke-width="2"/>
+    <circle cx="268.5" cy="158" r="5" fill="#52525b" stroke="#101012" stroke-width="2"/>
+    <text x="373.5" y="162" fill="#a1a1aa" font-size="11.5" font-family="ui-monospace, Menlo, monospace">+0.022</text>
+  </g>
+
+  <!-- top-10: +0.078 [+0.035, +0.109] — genuine skill -->
+  <g>
+    <text x="104" y="208" fill="#d4d4d8" font-size="13" text-anchor="end">top-10</text>
+    <line x1="284.3" y1="204" x2="374.5" y2="204" stroke="#0d9488" stroke-width="2"/>
+    <line x1="284.3" y1="199" x2="284.3" y2="209" stroke="#0d9488" stroke-width="2"/>
+    <line x1="374.5" y1="199" x2="374.5" y2="209" stroke="#0d9488" stroke-width="2"/>
+    <circle cx="336.7" cy="204" r="5" fill="#0d9488" stroke="#101012" stroke-width="2"/>
+    <text x="384.5" y="208" fill="#d4d4d8" font-size="11.5" font-family="ui-monospace, Menlo, monospace">+0.078</text>
+  </g>
+
+  <!-- top-20: +0.141 [+0.115, +0.166] — genuine skill -->
+  <g>
+    <text x="104" y="254" fill="#d4d4d8" font-size="13" text-anchor="end">top-20</text>
+    <line x1="381.8" y1="250" x2="443.9" y2="250" stroke="#0d9488" stroke-width="2"/>
+    <line x1="381.8" y1="245" x2="381.8" y2="255" stroke="#0d9488" stroke-width="2"/>
+    <line x1="443.9" y1="245" x2="443.9" y2="255" stroke="#0d9488" stroke-width="2"/>
+    <circle cx="413.4" cy="250" r="5" fill="#0d9488" stroke="#101012" stroke-width="2"/>
+    <text x="453.9" y="254" fill="#d4d4d8" font-size="11.5" font-family="ui-monospace, Menlo, monospace">+0.141</text>
+  </g>
+
+  <!-- make-cut: +0.246 [+0.153, +0.350] — genuine skill -->
+  <g>
+    <text x="104" y="300" fill="#d4d4d8" font-size="13" text-anchor="end">make-cut</text>
+    <line x1="428.0" y1="296" x2="667.8" y2="296" stroke="#0d9488" stroke-width="2"/>
+    <line x1="428.0" y1="291" x2="428.0" y2="301" stroke="#0d9488" stroke-width="2"/>
+    <line x1="667.8" y1="291" x2="667.8" y2="301" stroke="#0d9488" stroke-width="2"/>
+    <circle cx="541.2" cy="296" r="5" fill="#0d9488" stroke="#101012" stroke-width="2"/>
+    <text x="677.8" y="300" fill="#d4d4d8" font-size="11.5" font-family="ui-monospace, Menlo, monospace">+0.246</text>
+  </g>
+
+  <!-- Legend -->
+  <g font-size="11.5">
+    <circle cx="38" cy="371" r="4.5" fill="#0d9488"/>
+    <text x="49" y="375" fill="#a1a1aa">genuine skill &#8212; lower CI bound &gt; 0</text>
+    <circle cx="268" cy="371" r="4.5" fill="#52525b"/>
+    <text x="279" y="375" fill="#a1a1aa">CI straddles 0 &#8212; no claimed edge</text>
+  </g>
+</svg>
