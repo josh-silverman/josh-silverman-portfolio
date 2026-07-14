@@ -178,7 +178,7 @@ export const projects: Project[] = [
       "An end-to-end machine learning platform generating calibrated probabilities for every player in a PGA Tour field across five outcome markets (win / top-5 / top-10 / top-20 / make-cut) — validated through rigorous backtesting, 18 pre-registered feature experiments, and a forward track record graded only on events the model never trained on.",
     tags: ["FastAPI", "scikit-learn", "React", "TypeScript", "PostgreSQL", "Redis"],
     github: "https://github.com/josh-silverman/golf-analytics-platform",
-    demo: "", // TODO: paste your Fly.io/Vercel URL, or leave "" to hide
+    demo: "https://pinpoint-golf-gray.vercel.app",
     image: "/pinpoint-results.svg",
     imageAlt:
       "Interval plot of out-of-sample Brier skill scores with 90% confidence intervals across five outcome markets — make-cut, top-20, and top-10 show genuine skill.",

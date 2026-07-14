@@ -20,35 +20,9 @@ export default function Projects() {
               />
             )}
             <div className="flex flex-1 flex-col p-6">
-            <div className="flex items-start justify-between gap-4">
-              <h3 className="text-lg font-semibold text-zinc-100 transition-colors group-hover:text-accent-bright">
-                {project.title}
-              </h3>
-              <div className="flex shrink-0 items-center gap-3 text-zinc-500">
-                {project.github && (
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`${project.title} on GitHub`}
-                    className="transition-colors hover:text-accent-bright"
-                  >
-                    <GitHubIcon className="h-5 w-5" />
-                  </a>
-                )}
-                {project.demo && (
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`${project.title} live demo`}
-                    className="transition-colors hover:text-accent-bright"
-                  >
-                    <ExternalLinkIcon className="h-5 w-5" />
-                  </a>
-                )}
-              </div>
-            </div>
+            <h3 className="text-lg font-semibold text-zinc-100 transition-colors group-hover:text-accent-bright">
+              {project.title}
+            </h3>
 
             <p className="mt-3 flex-1 text-sm leading-relaxed text-zinc-400">
               {project.description}
@@ -64,6 +38,33 @@ export default function Projects() {
                 </li>
               ))}
             </ul>
+
+            {(project.demo || project.github) && (
+              <div className="mt-5 flex items-center gap-5 border-t border-zinc-800/70 pt-4 text-sm font-medium">
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1.5 text-accent-bright transition-colors hover:text-zinc-100"
+                  >
+                    <ExternalLinkIcon className="h-4 w-4" />
+                    Live demo
+                  </a>
+                )}
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1.5 text-zinc-400 transition-colors hover:text-accent-bright"
+                  >
+                    <GitHubIcon className="h-4 w-4" />
+                    Code
+                  </a>
+                )}
+              </div>
+            )}
             </div>
           </article>
         ))}

@@ -36,13 +36,8 @@ Common edits:
 - **Change the accent color** — edit the two `--color-accent*` values at the
   top of [`src/index.css`](src/index.css).
 
-### TODOs left for you
-
-- [ ] Add the Pinpoint Analytics live demo URL to `projects[0]` in
-      `src/data/content.ts`, if deployed
-- [ ] After Vercel assigns your domain, confirm the absolute URLs in the
-      `og:` / `twitter:` / canonical tags in `index.html` match it
-      (currently assume `josh-silverman-portfolio.vercel.app`)
+Live site: https://josh-silverman-portfolio.vercel.app
+Pinpoint Analytics live demo: https://pinpoint-golf-gray.vercel.app
 
 ## Deploy to Vercel
 
