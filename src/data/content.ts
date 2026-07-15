@@ -183,4 +183,15 @@ export const projects: Project[] = [
     imageAlt:
       "Interval plot of out-of-sample Brier skill scores with 90% confidence intervals across five outcome markets — make-cut, top-20, and top-10 show genuine skill.",
   },
+  {
+    title: "How Many Rounds Until You Can Trust Strokes Gained?",
+    description:
+      "A pre-registered reliability study of 131,847 PGA Tour rounds (2017–2026) measuring how quickly each strokes-gained category becomes skill signal instead of noise. Driving stabilizes in roughly 9 rounds while putting takes around 48, which means a 12-round putting hot streak deserves only about 20% of your trust.",
+    tags: ["Python", "pandas", "SciPy", "DataGolf API", "Bootstrap CIs"],
+    github: "https://github.com/josh-silverman/sg-reliability",
+    demo: "https://sg-reliability.vercel.app",
+    image: "/sg-stabilization.svg",
+    imageAlt:
+      "Stabilization curves showing split-half reliability by sample size for each strokes-gained category — driving reaches R = 0.5 at about 9 rounds, putting at about 48.",
+  },
 ];

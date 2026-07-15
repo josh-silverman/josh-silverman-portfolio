@@ -4,7 +4,7 @@ import { ExternalLinkIcon, GitHubIcon } from "./icons";
 
 export default function Projects() {
   return (
-    <Section id="projects" kicker="03 · Projects" title="Data & Analytics Projects">
+    <Section id="projects" kicker="03 · Projects & Research" title="Projects & Research">
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((project) => (
           <article
