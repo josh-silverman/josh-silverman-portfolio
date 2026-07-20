@@ -12,12 +12,14 @@ export default function Projects() {
             className="group flex flex-col overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900/40 transition-colors hover:border-accent/40"
           >
             {project.image && (
-              <img
-                src={project.image}
-                alt={project.imageAlt ?? `${project.title} preview`}
-                loading="lazy"
-                className="w-full border-b border-zinc-800"
-              />
+              <div className="flex aspect-[16/9] items-center justify-center overflow-hidden border-b border-zinc-800 bg-[#101012]">
+                <img
+                  src={project.image}
+                  alt={project.imageAlt ?? `${project.title} preview`}
+                  loading="lazy"
+                  className="h-full w-full object-contain"
+                />
+              </div>
             )}
             <div className="flex flex-1 flex-col p-6">
             <h3 className="text-lg font-semibold text-zinc-100 transition-colors group-hover:text-accent-bright">
