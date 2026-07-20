@@ -7,7 +7,7 @@ export default function Contact() {
     <Section id="contact" kicker="04 · Contact" title="Let's Talk">
       <div className="max-w-2xl">
         <p className="leading-relaxed text-zinc-400">
-          I'm actively pursuing opportunities in sports analytics — if you're building a
+          I'm actively pursuing opportunities in sports analytics. If you're building a
           data-driven front office, betting product, or fan analytics team, I'd love to
           connect.
         </p>

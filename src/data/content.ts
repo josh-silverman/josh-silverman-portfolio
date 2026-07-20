@@ -50,7 +50,7 @@ export const site = {
   name: "Josh Silverman",
   tagline: "Aspiring Sports Analytics Professional",
   intro:
-    "I'm a data analytics & AI consultant who builds and validates the full pipeline — from SQL sourcing and KPI definition to Power BI dashboards and machine learning models. I create sports analytics projects, including a PGA Tour prediction platform with rigorously backtested accuracy, and I'm working toward doing it full-time in sports.",
+    "I'm a data analytics and AI consultant who works across the whole pipeline, from SQL sourcing and KPI definition to Power BI dashboards and machine learning models. On the side, I build sports analytics projects, including a PGA Tour prediction platform I've tested carefully against real results, and I'm working toward doing this full-time in sports.",
   location: "Atlanta, GA",
   /** Resume download served from /public. */
   resumeFile: "/Josh-Silverman-Resume.pdf",
@@ -66,9 +66,9 @@ export const socials: SocialLinks = {
 /* ── About ────────────────────────────────────────────────────── */
 
 export const about: string[] = [
-  "I got my start at the intersection of sports and data — building event-outcome prediction models as a marketing technology intern at PlayOn! Sports and pitching arena revenue concepts to Miami Heat executives — before earning an M.S. in Business Analytics from the University of Georgia's Terry College of Business.",
-  "Today I work as a data analytics & AI consultant at NTT DATA, where I own KPI frameworks, validate enterprise SQL pipelines, and took 1st place in the company's North American AI Hackathon — pitching an LLM evaluation framework to the Global CEO. On nights and weekends, I run an end-to-end PGA Tour prediction platform — from strokes-gained feature engineering and calibrated gradient-boosted models through rigorous backtesting to a deployed full-stack product.",
-  "My goal: bring that same rigor — honest validation, reproducible pipelines, and clear communication with decision-makers — to a sports analytics organization.",
+  "I got my start at the intersection of sports and data, building event-outcome prediction models as a marketing technology intern at PlayOn! Sports and pitching arena revenue ideas to Miami Heat executives. After that, I earned an M.S. in Business Analytics from the University of Georgia's Terry College of Business.",
+  "Today I work as a data analytics and AI consultant at NTT DATA, where I manage KPI frameworks and validate enterprise SQL pipelines. I also took 1st place in the company's North American AI Hackathon, pitching an LLM evaluation framework to the Global CEO. Nights and weekends, I run a PGA Tour prediction platform on my own: strokes-gained feature engineering, calibrated gradient-boosted models, backtesting, and a deployed full-stack product.",
+  "My goal is to bring that same approach, careful validation, reproducible work, and clear communication with decision-makers, to a sports analytics organization.",
 ];
 
 /* ── Resume ───────────────────────────────────────────────────── */
@@ -119,13 +119,13 @@ export const experience: ResumeEntry[] = [
 
 export const education: EducationEntry[] = [
   {
-    school: "University of Georgia — Terry College of Business",
+    school: "University of Georgia, Terry College of Business",
     degree: "M.S. Business Analytics",
     detail: "GPA: 3.9",
     period: "2024",
   },
   {
-    school: "University of Georgia — Terry College of Business",
+    school: "University of Georgia, Terry College of Business",
     degree: "B.B.A. Marketing, Sports Management Minor, Business Analytics Emphasis",
     detail: "GPA: 3.6, cum laude",
     period: "2023",
@@ -173,15 +173,15 @@ export const skills: SkillGroup[] = [
 
 export const projects: Project[] = [
   {
-    title: "Pinpoint Analytics — PGA Tour Prediction Platform",
+    title: "Pinpoint Analytics: PGA Tour Prediction Platform",
     description:
-      "An end-to-end machine learning platform generating calibrated probabilities for every player in a PGA Tour field across five outcome markets (win / top-5 / top-10 / top-20 / make-cut) — validated through rigorous backtesting, 18 pre-registered feature experiments, and a forward track record graded only on events the model never trained on.",
+      "A machine learning platform that generates calibrated probabilities for every player in a PGA Tour field across five outcome markets (win / top-5 / top-10 / top-20 / make-cut). Validated through backtesting, 18 pre-registered feature experiments, and a forward track record graded only on events the model never trained on.",
     tags: ["FastAPI", "scikit-learn", "React", "TypeScript", "PostgreSQL", "Redis"],
     github: "https://github.com/josh-silverman/golf-analytics-platform",
     demo: "https://pinpoint-golf-gray.vercel.app",
     image: "/pinpoint-results.svg",
     imageAlt:
-      "Interval plot of out-of-sample Brier skill scores with 90% confidence intervals across five outcome markets — make-cut, top-20, and top-10 show genuine skill.",
+      "Interval plot of out-of-sample Brier skill scores with 90% confidence intervals across five outcome markets. Make-cut, top-20, and top-10 show genuine skill.",
   },
   {
     title: "How Many Rounds Until You Can Trust Strokes Gained?",
@@ -192,6 +192,6 @@ export const projects: Project[] = [
     demo: "https://sg-reliability.vercel.app",
     image: "/sg-stabilization.svg",
     imageAlt:
-      "Stabilization curves showing split-half reliability by sample size for each strokes-gained category — driving reaches R = 0.5 at about 9 rounds, putting at about 48.",
+      "Stabilization curves showing split-half reliability by sample size for each strokes-gained category. Driving reaches R = 0.5 at about 9 rounds, putting at about 48.",
   },
 ];
