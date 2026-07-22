@@ -228,7 +228,7 @@ export const predictionModel: FeaturedProject = {
     { value: "no edge", label: "on picking outright winners, and I say so" },
   ],
   findingsNote:
-    "I tested the model on about 35,800 player-tournament results it never trained on. The edge is largest on make-cut, still clear on top-20 and top-10, and close to zero on outright winners. Most models leave that last part out. Picking the winner from a 150-player field is mostly luck, so I focus on the markets where the model actually beats the field.",
+    "I tested the model on about 35,800 player-tournament results it never trained on. The edge is largest on make-cut, still clear on top-20 and top-10, and close to zero on outright winners. Picking the winner from a 150-player field is mostly luck, so I focus on the markets where the model actually beats the field.",
   github: "https://github.com/josh-silverman/golf-analytics-platform",
   demo: "https://pinpoint-golf-gray.vercel.app",
   image: "/pinpoint-results.svg",
