@@ -4,7 +4,7 @@ import { GitHubIcon, LinkedInIcon, MailIcon } from "./icons";
 
 export default function Contact() {
   return (
-    <Section id="contact" kicker="04 · Contact" title="Let's Talk">
+    <Section id="contact" kicker="05 · Contact" title="Let's Talk">
       <div className="max-w-2xl">
         <p className="leading-relaxed text-zinc-400">
           I'm actively pursuing opportunities in sports analytics. If you're building a

@@ -4,7 +4,9 @@ import { MenuIcon, CloseIcon } from "./icons";
 const links = [
   { href: "#about", label: "About" },
   { href: "#resume", label: "Resume" },
-  { href: "#projects", label: "Projects & Research" },
+  { href: "#model", label: "Model" },
+  { href: "#reports", label: "Weekly Reports" },
+  { href: "#research", label: "Research" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -19,7 +21,7 @@ export default function Nav() {
         </a>
 
         {/* Desktop links */}
-        <ul className="hidden items-center gap-8 sm:flex">
+        <ul className="hidden items-center gap-6 sm:flex">
           {links.map((link) => (
             <li key={link.href}>
               <a

@@ -2,7 +2,7 @@
 
 @theme {
   /*
-   * Accent color — change these two values to re-theme the whole site.
+   * Accent color: change these two values to re-theme the whole site.
    * Current: teal (data/scoreboard vibe).
    */
   --color-accent: #2dd4bf; /* teal-400 */

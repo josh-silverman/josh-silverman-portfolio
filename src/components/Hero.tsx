@@ -23,10 +23,10 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-wrap items-center gap-4">
           <a
-            href="#projects"
+            href="#model"
             className="rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-zinc-950 transition-colors hover:bg-accent-bright"
           >
-            View Projects
+            View the Model
           </a>
           <a
             href="#contact"
