@@ -42,6 +42,22 @@ contrast just to knock it down, rewrite it as a plain statement.
 > ❌ "He is a fit play, not a form play."
 > ✅ "The edge here comes from fit rather than form."
 
+The "nothing to do with X and everything to do with Y" template is the
+same device wearing a different coat.
+
+> ❌ "a bump that has nothing to do with recent form and everything to do with the shots this course asks for"
+> ✅ "a bump for how their games match the shots this course asks for, regardless of how they have been playing lately"
+
+Matched-pair sentences are the third variant. If two consecutive
+sentences have identical shape with one word swapped, collapse them.
+
+> ❌ "The market is pricing reputation. The model is pricing a longer stretch of ball striking."
+> ✅ "These four are priced on reputation or one strong recent week. The model weighs a longer stretch of ball striking and lands lower on all of them."
+
+One exception: a short factual distinction like "These are
+probabilities, not predictions" is fine. It is doing real work, not
+rhetoric.
+
 ### 3. No metaphors or color
 
 Say the literal thing.
@@ -71,6 +87,15 @@ significance of a point. Make the point and move on.
 
 > ❌ "The biggest disagreement on the board, and it is not close."
 > ✅ "The biggest disagreement on the board."
+
+> ❌ "My model has him at 23.7%. That is the unusual part. Models are normally lower..."
+> ✅ "My model has him at 23.7%. Models are normally lower..."
+
+> ❌ "Course history is usually a weak signal, so it is worth noting when it is this clear."
+> ✅ "Course history is usually a weak signal, but his is strong enough to move the number."
+
+Watch for "it is worth noting," "that is the unusual part," and any
+sentence whose only job is to tell the reader that the next fact matters.
 
 ### 5. No claiming superiority over others, no self-congratulation
 
@@ -142,6 +167,15 @@ and the weekly reports blurb ("what it found that the narrative missed",
 "Published before the first tee shot, never edited after"). Asked for
 plain, direct, informative, "like a college grad wrote it." Established
 rules 3, 4, and 5. Also removed the tech tag pills, rule 7.
+
+**2026-07-22** Second pass on the same report caught three things the
+first pass missed: "That is the unusual part" and "it is worth noting
+when it is this clear" (rule 4), the "nothing to do with X and
+everything to do with Y" template and a matched-pair market/model
+sentence (both rule 2), and "in the market I trust most" tacked onto a
+player note as emphasis. Also cut "the model's job is" as light
+personification. Lesson: these read as harmless individually and only
+show up as a pattern on a reread, so always do a second pass.
 
 **2026-07-22** On the first full tournament report: liked the detail and
 the structure of the analysis, but said there were too many extra lines

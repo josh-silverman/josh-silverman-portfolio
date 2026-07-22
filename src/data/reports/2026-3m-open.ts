@@ -29,7 +29,7 @@ export const report: TournamentReport = {
     {
       kind: "paragraph",
       text:
-        "The betting market has Scheffler winning about 18% of the time. My model has him at 23.7%. That is the unusual part. Models are normally lower than the market on big favorites, because the public tends to overprice well-known players. Here it is higher.",
+        "The betting market has Scheffler winning about 18% of the time. My model has him at 23.7%. Models are normally lower than the market on big favorites, because the public tends to overprice well-known players. Here it is higher.",
     },
     {
       kind: "paragraph",
@@ -51,7 +51,7 @@ export const report: TournamentReport = {
         {
           name: "Scottie Scheffler",
           stat: "+13.7% edge",
-          note: "78% to finish top-20 against a market price closer to 64%. The biggest gap on the board, in the market I trust most.",
+          note: "78% to finish top-20 against a market price closer to 64%. The biggest gap on the board.",
         },
         {
           name: "Tom Kim",
@@ -66,7 +66,7 @@ export const report: TournamentReport = {
         {
           name: "Doug Ghim",
           stat: "+6.0% edge",
-          note: "Has the best history at this course of anyone in the field. Course history is usually a weak signal, so it is worth noting when it is this clear.",
+          note: "Has the best history at this course of anyone in the field. Course history is usually a weak signal, but his is strong enough to move the number.",
         },
         {
           name: "Ben Kohles",
@@ -82,7 +82,7 @@ export const report: TournamentReport = {
     {
       kind: "paragraph",
       text:
-        "In each of these the market is pricing reputation or one strong recent week. The model is pricing a longer stretch of ball striking.",
+        "These four are priced on reputation or one strong recent week. The model weighs a longer stretch of ball striking and lands lower on all of them.",
     },
     {
       kind: "players",
@@ -121,7 +121,7 @@ export const report: TournamentReport = {
     {
       kind: "paragraph",
       text:
-        "Course fit matters more here. Ben Kohles, Zac Blair, and Christiaan Bezuidenhout all get a meaningful bump that has nothing to do with recent form and everything to do with the shots this course asks for. Blair is one of the shortest hitters in the field and grades as one of the best fits.",
+        "Course fit matters more here. Ben Kohles, Zac Blair, and Christiaan Bezuidenhout all get a meaningful bump for how their games match the shots this course asks for, regardless of how they have been playing lately. Blair is one of the shortest hitters in the field and grades as one of the best fits.",
     },
     {
       kind: "heading",
@@ -143,7 +143,7 @@ export const report: TournamentReport = {
     {
       kind: "paragraph",
       text:
-        "Most weeks the model's job is finding a favorite the market has overpriced. This week it did the opposite and said the best player in the world is still good value against this field. The more useful plays are further down the board: Tom Kim and Maverick McNealy for top-20, and Ben Kohles as the course-fit play.",
+        "Most weeks I am looking for a favorite the market has overpriced. This week the model did the opposite and said the best player in the world is still good value against this field. The more useful plays are further down the board: Tom Kim and Maverick McNealy for top-20, and Ben Kohles as the course-fit play.",
     },
     {
       kind: "callout",
