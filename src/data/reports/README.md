@@ -32,15 +32,17 @@ the object. Reports sort newest first by `published`.
 
 ## House style
 
+**Prose rules live in [`WRITING-STYLE.md`](../../../WRITING-STYLE.md) at the
+repo root. Read that before drafting.** It is the single source of truth for
+voice, and it is kept up to date as Josh flags new lines.
+
+Rules specific to reports, on top of that:
+
 - **Lead with the single most interesting finding**, not a summary of the
   field. Build the post around that story.
-- **Two to three minute read.** Roughly 600 words.
-- **No em-dashes.** Use commas, colons, or a new sentence.
-- **No modeling jargon.** Never write calibration, isotonic regression,
-  confidence intervals, model architecture, or anything about the serving
-  layer. Say what it means for a golfer instead.
-- **Translate, don't report.** Not "the model compresses probabilities"
-  but "the model is more conservative than the market on outright winners."
+- **Two to three minute read.** Roughly 600 to 800 words.
 - **Prefer player cards over tables.** Readers skim names, not grids.
-- **Publish before the first tee shot and do not edit afterward.** The
-  track record only means something if the numbers are timestamped.
+- **Publish before the first round and do not edit afterward.** The track
+  record only means something if the numbers are timestamped.
+- **Source picks from top-20 and make-cut**, the markets with measured
+  edge, not the win market.
