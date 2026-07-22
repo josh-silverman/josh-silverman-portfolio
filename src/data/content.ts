@@ -225,7 +225,7 @@ export const predictionModel: FeaturedProject = {
   keyFindings: [
     { value: "35,800", label: "player-tournament results tested, 2018 to 2026" },
     { value: "make-cut", label: "the market with the largest measured edge" },
-    { value: "no edge", label: "on picking outright winners, and I say so" },
+    { value: "no edge", label: "on picking outright winners" },
   ],
   findingsNote:
     "I tested the model on about 35,800 player-tournament results it never trained on. The edge is largest on make-cut, still clear on top-20 and top-10, and close to zero on outright winners. Picking the winner from a 150-player field is mostly luck, so I focus on the markets where the model actually beats the field.",
