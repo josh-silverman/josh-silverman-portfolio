@@ -149,7 +149,7 @@ export const report: TournamentReport = {
       kind: "callout",
       title: "How I grade this",
       text:
-        "Every weekly report is published before the first tee shot and never edited afterward. Results get compared against these exact numbers once the tournament ends, wins and misses both.",
+        "I publish every weekly report before the first round starts and don't edit it afterward. Once the tournament ends, I compare the results against these exact numbers, wins and misses both.",
     },
   ],
 };

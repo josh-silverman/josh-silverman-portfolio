@@ -34,7 +34,6 @@ export interface SkillGroup {
 export interface Project {
   title: string;
   description: string;
-  tags: string[];
   /** GitHub repo URL. Leave as "" to hide the link. */
   github?: string;
   /** Live demo URL. Leave as "" to hide the link. */
@@ -55,7 +54,6 @@ export interface FeaturedProject {
   /** Headline results. Keep to three or four. */
   keyFindings: { value: string; label: string }[];
   findingsNote: string;
-  tags: string[];
   github?: string;
   demo?: string;
   image?: string;
@@ -230,8 +228,7 @@ export const predictionModel: FeaturedProject = {
     { value: "no edge", label: "on picking outright winners, and I say so" },
   ],
   findingsNote:
-    "Tested on roughly 35,800 player-tournament results the model never trained on, the edge is real and largest in the make-cut market, still clear for top-20 and top-10, and statistically indistinguishable from zero for outright winners. That last result is the one most models bury. Predicting the winner of a 150-player golf tournament is close to a coin flip dressed up as expertise, so I point the useful part of the model at the markets where it actually beats the field.",
-  tags: ["FastAPI", "scikit-learn", "React", "TypeScript", "PostgreSQL", "Redis"],
+    "I tested the model on about 35,800 player-tournament results it never trained on. The edge is largest on make-cut, still clear on top-20 and top-10, and close to zero on outright winners. Most models leave that last part out. Picking the winner from a 150-player field is mostly luck, so I focus on the markets where the model actually beats the field.",
   github: "https://github.com/josh-silverman/golf-analytics-platform",
   demo: "https://pinpoint-golf-gray.vercel.app",
   image: "/pinpoint-results.svg",
@@ -246,7 +243,6 @@ export const research: Project[] = [
     title: "How Many Rounds Until You Can Trust Strokes Gained?",
     description:
       "A study of 131,847 PGA Tour rounds (2017 to 2026) measuring how quickly each strokes-gained category becomes real skill signal instead of noise. Driving settles in roughly 9 rounds while putting takes around 48, which means a 12-round putting hot streak deserves only about 20% of your trust.",
-    tags: ["Python", "pandas", "SciPy", "DataGolf API", "Reliability Analysis"],
     github: "https://github.com/josh-silverman/sg-reliability",
     demo: "https://sg-reliability.vercel.app",
     image: "/sg-stabilization.svg",

@@ -36,17 +36,6 @@ export default function Research() {
                 {project.description}
               </p>
 
-              <ul className="mt-5 flex flex-wrap gap-1.5">
-                {project.tags.map((tag) => (
-                  <li
-                    key={tag}
-                    className="rounded-full bg-accent/10 px-2.5 py-1 font-mono text-xs text-accent-bright"
-                  >
-                    {tag}
-                  </li>
-                ))}
-              </ul>
-
               {(project.demo || project.github) && (
                 <div className="mt-5 flex items-center gap-5 border-t border-zinc-800/70 pt-4 text-sm font-medium">
                   {project.demo && (

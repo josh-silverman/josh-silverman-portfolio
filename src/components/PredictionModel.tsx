@@ -100,17 +100,6 @@ export default function PredictionModel() {
             </dl>
             <p className="mt-4 text-sm leading-relaxed text-zinc-400">{model.findingsNote}</p>
           </div>
-
-          <ul className="mt-8 flex flex-wrap gap-1.5 border-t border-zinc-800/70 pt-6">
-            {model.tags.map((tag) => (
-              <li
-                key={tag}
-                className="rounded-full bg-accent/10 px-2.5 py-1 font-mono text-xs text-accent-bright"
-              >
-                {tag}
-              </li>
-            ))}
-          </ul>
         </div>
       </article>
 
@@ -120,9 +109,9 @@ export default function PredictionModel() {
           <div>
             <h3 className="text-xl font-semibold text-zinc-100">Weekly Tournament Reports</h3>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zinc-400">
-              A short read each tournament week: who the model likes, where it disagrees with the
-              betting market, and what it found that the narrative missed. Published before the
-              first tee shot, never edited after.
+              A short post each tournament week covering who the model likes, where it disagrees
+              with the betting market, and anything surprising in the numbers. I publish before
+              the first round starts and don't edit afterward.
             </p>
           </div>
           <span className="font-mono text-xs text-zinc-600">
